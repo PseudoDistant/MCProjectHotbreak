@@ -1,9 +1,12 @@
-# Fabric Example Mod
+# MC-176387 Hotbreak
 
-## Setup
+A mod that unpatches [MC-176387]
+( https://bugs.mojang.com/browse/MC-176387 )
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+CC0
+
+Feel free to use the files from this mod (Currently a single mixin, but who knows, maybe I'll grow it in the future.)
+in any way you'd like. :)

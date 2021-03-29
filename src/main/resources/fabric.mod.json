@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "projectile-vehicle-hotbreak",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Minecart Fly Hotbreak",
+  "description": "Breaks patch for [MC-176387]",
   "authors": [
-    "Me!"
+    "FarlanderCraft"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://www.youtube.com/channel/UCNW_V3BfkWXcMtCEIGQyaBA",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
@@ -19,19 +19,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.javafarlander2002.minecartflyhotbreak.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "minecartflyhotbreak.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
     "minecraft": "1.16.x"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "accessWidener": "minecartflyhotbreak.accesswidener"
 }
