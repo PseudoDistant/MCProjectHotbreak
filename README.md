@@ -1,6 +1,6 @@
 # MC-176387 Hotbreak
 
-A mod that unpatches [MC-176387]
+A Fabric mod that unpatches [MC-176387]
 ( https://bugs.mojang.com/browse/MC-176387 )
 
 
