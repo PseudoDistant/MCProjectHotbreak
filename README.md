@@ -12,6 +12,8 @@ Target bugs:
 
 https://bugs.mojang.com/browse/MC-175998
 
+https://bugs.mojang.com/browse/MC-176028
+
 
 ## License
 
