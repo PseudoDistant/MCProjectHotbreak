@@ -6,6 +6,8 @@ Currently unpatched bugs:
 
 https://bugs.mojang.com/browse/MC-176387
 
+https://bugs.mojang.com/browse/MC-176032
+
 Target bugs:
 
 https://bugs.mojang.com/browse/MC-175998
