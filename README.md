@@ -1,7 +1,14 @@
-# MC-176387 Hotbreak
+# Project Hotbreak
 
-A Fabric mod that unpatches [MC-176387]
-( https://bugs.mojang.com/browse/MC-176387 )
+A mod that attempts to unpatch Minecraft bugs using the Fabric modloader.
+ 
+Currently unpatched bugs:
+
+https://bugs.mojang.com/browse/MC-176387
+
+Target bugs:
+
+https://bugs.mojang.com/browse/MC-175998
 
 
 ## License
