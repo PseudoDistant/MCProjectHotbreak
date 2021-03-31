@@ -12,6 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.Iterator;
+import java.util.Objects;
 
 @Mixin(ProjectileEntity.class)
 public abstract class MixinProjectileEntity extends Entity{
@@ -19,13 +20,10 @@ public abstract class MixinProjectileEntity extends Entity{
         super(type, world);
     }
 
-    @Shadow public abstract Entity getOwner();
-
-    @Inject(method = "method_26961", at = @At(value = "INVOKE"), cancellable = true)
-    public void the26961inject(CallbackInfoReturnable ci) {
-        if (2 != 5) {
+    @Inject(method = "method_26961", at = @At(value = "RETURN"), cancellable = true)
+    public void the26961inject(CallbackInfoReturnable<Boolean> ci) {
+        if (!ci.getReturnValue()) {
             ci.setReturnValue(true);
-            ci.cancel();
         }
     }
 }
