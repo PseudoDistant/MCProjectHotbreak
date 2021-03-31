@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "projectile-vehicle-hotbreak",
+  "id": "project-hotbreak",
   "version": "${version}",
 
-  "name": "Minecart Fly Hotbreak",
-  "description": "Breaks patch for [MC-176387]",
+  "name": "ProjectHotbreak",
+  "description": "Breaks patches for several Minecraft bugs from various snapshots and releases",
   "authors": [
     "FarlanderCraft"
   ],
   "contact": {
     "homepage": "https://www.youtube.com/channel/UCNW_V3BfkWXcMtCEIGQyaBA",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/FarLanderCraft/MCProjectHotbreak"
   },
 
   "license": "CC0-1.0",
@@ -19,16 +19,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.javafarlander2002.minecartflyhotbreak.Main"
+      "com.javafarlander2002.projecthotbreak.Main"
     ]
   },
   "mixins": [
-    "minecartflyhotbreak.mixins.json"
+    "projecthotbreak.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "minecraft": "1.16.x"
   },
-  "accessWidener": "minecartflyhotbreak.accesswidener"
+  "accessWidener": "projecthotbreak.accesswidener"
 }

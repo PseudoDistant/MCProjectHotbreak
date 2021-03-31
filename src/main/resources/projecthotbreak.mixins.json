@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.javafarlander2002.projecthotbreak.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinProjectileEntity",
+    "MixinStriderEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
