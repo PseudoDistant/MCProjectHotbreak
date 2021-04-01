@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "project-hotbreak",
+  "id": "projecthotbreak",
   "version": "${version}",
 
   "name": "ProjectHotbreak",
@@ -8,18 +8,22 @@
   "authors": [
     "FarlanderCraft"
   ],
+  "contributors": [
+    "wafflecoffee"
+  ],
   "contact": {
     "homepage": "https://www.youtube.com/channel/UCNW_V3BfkWXcMtCEIGQyaBA",
+    "issues": "https://github.com/FarLanderCraft/MCProjectHotbreak/issues",
     "sources": "https://github.com/FarLanderCraft/MCProjectHotbreak"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/projecthotbreak/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.javafarlander2002.projecthotbreak.Main"
+      "io.github.farlandercraft.projecthotbreak.Main"
     ]
   },
   "mixins": [

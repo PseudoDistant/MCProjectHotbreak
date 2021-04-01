@@ -1,5 +1,5 @@
 // vim: noet
-package com.javafarlander2002.projecthotbreak.iface;
+package io.github.farlandercraft.projecthotbreak.iface;
 
 import net.minecraft.server.world.ChunkTicketManager;
 import net.minecraft.util.math.ChunkPos;

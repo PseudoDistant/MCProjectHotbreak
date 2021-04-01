@@ -1,4 +1,4 @@
-package com.javafarlander2002.projecthotbreak.mixin;
+package io.github.farlandercraft.projecthotbreak.mixin;
 
 import net.minecraft.entity.*;
 import net.minecraft.entity.mob.MobEntity;

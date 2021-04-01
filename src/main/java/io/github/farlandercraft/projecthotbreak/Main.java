@@ -1,4 +1,4 @@
-package com.javafarlander2002.projecthotbreak;
+package io.github.farlandercraft.projecthotbreak;
 
 import net.fabricmc.api.ModInitializer;
 
