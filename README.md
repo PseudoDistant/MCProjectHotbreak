@@ -19,6 +19,6 @@ https://bugs.mojang.com/browse/MC-218597
 
 ## License
 
-CC0
+MIT
 
 Feel free to use the files from this mod in any way you'd like. :)

@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.javafarlander2002.projecthotbreak.mixin",
+  "package": "io.github.farlandercraft.projecthotbreak.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
