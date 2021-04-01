@@ -8,11 +8,13 @@ https://bugs.mojang.com/browse/MC-176387
 
 https://bugs.mojang.com/browse/MC-176032
 
+https://bugs.mojang.com/browse/MC-176028
+
 Target bugs:
 
 https://bugs.mojang.com/browse/MC-175998
 
-https://bugs.mojang.com/browse/MC-176028
+https://bugs.mojang.com/browse/MC-218597
 
 
 ## License
