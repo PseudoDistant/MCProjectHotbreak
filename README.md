@@ -21,5 +21,4 @@ https://bugs.mojang.com/browse/MC-218597
 
 CC0
 
-Feel free to use the files from this mod (Currently a single mixin, but who knows, maybe I'll grow it in the future.)
-in any way you'd like. :)
+Feel free to use the files from this mod in any way you'd like. :)
