@@ -16,6 +16,16 @@ https://bugs.mojang.com/browse/MC-175998
 
 https://bugs.mojang.com/browse/MC-218597
 
+https://bugs.mojang.com/browse/MC-222992
+
+https://bugs.mojang.com/browse/MC-222797
+
+https://bugs.mojang.com/browse/MC-208735
+
+https://bugs.mojang.com/browse/MC-218592
+
+
+
 
 ## License
 
