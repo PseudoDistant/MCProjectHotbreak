@@ -4,10 +4,11 @@
   "package": "io.github.farlandercraft.projecthotbreak.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
     "MixinProjectileEntity",
     "MixinStriderEntity"
+  ],
+  "client": [
+
   ],
   "injectors": {
     "defaultRequire": 1
