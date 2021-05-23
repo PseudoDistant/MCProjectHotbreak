@@ -19,7 +19,7 @@ public abstract class MixinProjectileEntity extends Entity{
         super(type, world);
     }
 
-    @Inject(method = "canHit", at = @At(value = "RETURN"), cancellable = true)
+    @Inject(method = "method_26961", at = @At(value = "RETURN"), cancellable = true)
     public void the26961inject(CallbackInfoReturnable<Boolean> ci) {
         if (!ci.getReturnValue()) {
             ci.setReturnValue(true);
