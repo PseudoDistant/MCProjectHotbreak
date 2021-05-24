@@ -27,10 +27,8 @@ jobs:
       - name: make gradle wrapper executable
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
-      - name: update locks
-        run: ./gradlew --update-locks
       - name: build
-        run: ./gradlew clean build
+        run: ./gradlew --update-locks clean build
       - name: capture build artifacts
         if: ${{ runner.os == 'Linux' }} 
         uses: actions/upload-artifact@v2
