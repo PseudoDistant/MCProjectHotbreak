@@ -1,6 +1,6 @@
 # Project Hotbreak
 
-A mod that attempts to unpatch various Minecraft bugs using the Fabric modloader.
+A mod that attempts to unpatch several Minecraft bugs using the Fabric modloader.
 
 ## In-progress bugs:
 
