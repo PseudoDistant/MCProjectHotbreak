@@ -28,7 +28,7 @@ jobs:
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
       - name: build
-        run: ./gradlew --update-locks clean build
+        run: ./gradlew clean build
       - name: capture build artifacts
         if: ${{ runner.os == 'Linux' }} 
         uses: actions/upload-artifact@v2
