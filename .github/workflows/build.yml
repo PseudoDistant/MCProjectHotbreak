@@ -7,9 +7,12 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        # Use these Java versions
+        # java: [16]
+        # and run on both Linux and Windows
+        os: [ubuntu-20.04, windows-latest]
     steps:
       # Checkout the repository
       - uses: actions/checkout@v2
@@ -22,6 +25,7 @@ jobs:
 
       # Set up gradle execute permissions
       - name: Grant execute permission for gradlew
+      - if: ${{ runner.os != 'Windows' }}
         run: chmod +x gradlew
 
       # Build the project with gradle
