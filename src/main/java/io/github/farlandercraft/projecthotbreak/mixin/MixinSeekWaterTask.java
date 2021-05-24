@@ -10,7 +10,6 @@ import net.minecraft.entity.mob.PathAwareEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
-import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
@@ -31,7 +30,7 @@ public class MixinSeekWaterTask extends Task<PathAwareEntity> {
         this.speed = speed;
     }
     /**
-     * @author
+     * @author Mojang
      */
     @Overwrite
     public void run(ServerWorld serverWorld, PathAwareEntity pathAwareEntity, long l) {
