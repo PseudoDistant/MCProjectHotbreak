@@ -36,9 +36,7 @@ public class MixinSeekWaterTask extends Task<PathAwareEntity> {
     public void run(ServerWorld serverWorld, PathAwareEntity pathAwareEntity, long l) {
         BlockPos blockPos = null;
         Iterable<BlockPos> iterable = BlockPos.iterateOutwards(pathAwareEntity.getBlockPos(), this.range, this.range, this.range);
-        Iterator var7 = iterable.iterator();
-        while(var7.hasNext()) {
-            BlockPos blockPos2 = (BlockPos) var7.next();
+        for (BlockPos blockPos2 : iterable) {
             if (pathAwareEntity.world.getFluidState(blockPos2).isIn(FluidTags.WATER)) {
                 blockPos = blockPos2.toImmutable();
                 break;
